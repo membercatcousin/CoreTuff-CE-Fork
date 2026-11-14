@@ -158,6 +158,21 @@ commands:
     usage: "/midnight [world]"
     permission: coretuff.time.midnight
 
+  # Weather
+
+  sun:
+    description: Set weather to clear
+    usage: "/sun [world]"
+    permission: coretuff.weather.sun
+  rain:
+    description: Set weather to rain
+    usage: "/rain [world]"
+    permission: coretuff.weather.rain
+  thunder:
+    description: Set weather to thunder
+    usage: "/thunder [world]"
+    permission: coretuff.weather.thunder
+
   # Utility
 
   fly:
@@ -428,6 +443,23 @@ permissions:
 
   coretuff.time.midnight:
     default: op
+
+  # Weather
+
+  coretuff.weather:
+    default: op
+    children:
+      coretuff.weather.sun: true
+      coretuff.weather.rain: true
+
+
+  coretuff.weather.sun:
+    default: op
+  coretuff.weather.rain:
+    default: op
+  coretuff.weather.thunder:
+    default: op
+
 
   # Utility
 

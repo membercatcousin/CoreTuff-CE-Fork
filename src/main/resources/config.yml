@@ -398,6 +398,15 @@ Time_Shorthand:
   timeChange: "&aYour time has been changed to &f{time}&a."
 
 # ============================================================
+# TIME SHORTCUTS
+# ============================================================
+
+Weather_Shorthand:
+
+  sun: "&aWeather set to Sun."
+  rain: "&aWeather set to Rain."
+  thunder: "&aWeather set to Thunder"
+# ============================================================
 # PLAYER / GENERAL MESSAGES
 # ============================================================
 
